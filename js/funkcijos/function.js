@@ -105,4 +105,4 @@ function words(w1, w2, w3) {
     return sentence ;
 }
 
-console.log(words('Latvija', 'Estija', 'Lietuva'));
+console.log(words('Latvia', 'Estonia', 'Lithuania'));
