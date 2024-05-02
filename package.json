@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+
+    "boolean": "node --watch ./js/duomenys/boolean.js",
     "string1": "node --watch ./js/duomenys/string1.js",
     "string": "node --watch ./js/duomenys/string.js",
     "number": "node --watch ./js/duomenys/number.js",

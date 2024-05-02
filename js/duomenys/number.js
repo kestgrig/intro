@@ -11,8 +11,9 @@ NUMBERS
   - NaN (not-a-number)
 
 Matematiniai operatoriai:
-- aritmetiniai: +, -, /, *, **, % 
-- aritmetiniai priskyrimo: 
+- aritmetiniai: +, -, /, *, **, % ;
+- aritmetiniai priskyrimo: +=, -=, /=, *=, **=, %=;
+
 */
 
 const pirmas = 51;

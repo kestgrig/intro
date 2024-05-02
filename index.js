@@ -25,9 +25,9 @@ Pagrindines programavimo temos:
 
 /*
 Duomenu tipai:
-- number
-- string
-- boolean
+- number (skaiciai)
+- string (tekstas)
+- boolean (logine reiksme)
 - array
 - object
 - null
