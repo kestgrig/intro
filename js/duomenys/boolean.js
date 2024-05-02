@@ -91,6 +91,7 @@ console.log(false || false && false);
 
 console.log('---------');
 
+// ND visos kombinacijos
 console.log(true && true && true && true);
 console.log(true && true && true && false);
 
