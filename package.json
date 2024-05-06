@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "function": "node --watch ./js/funkcijos/function.js",
+    "array": "node --watch ./js/duomenys/array.js",
+    "if": "node --watch ./js/palyginimas/if.js",
+    "boolean1": "node --watch ./js/duomenys/boolean1.js",
     "boolean": "node --watch ./js/duomenys/boolean.js",
     "string1": "node --watch ./js/duomenys/string1.js",
     "string": "node --watch ./js/duomenys/string.js",

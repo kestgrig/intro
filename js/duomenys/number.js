@@ -11,8 +11,8 @@ NUMBERS
   - NaN (not-a-number)
 
 Matematiniai operatoriai:
-- aritmetiniai: +, -, /, *, **, % ;
-- aritmetiniai priskyrimo: +=, -=, /=, *=, **=, %=;
+- aritmetiniai: +, -, /, *, **, % ; ++, --
+- aritmetiniai priskyrimo: +=, -=, /=, *=, **=, %=
 
 */
 
@@ -144,3 +144,26 @@ console.log(y);
 y -= 10 + (5 * 4);
 console.log(y);
 
+console.clear();
+
+let makaronai = 2;
+console.log(makaronai);
+
+makaronai += 2;
+console.log(makaronai);
+
+makaronai++;
+makaronai++;
+makaronai++;
+makaronai++;
+console.log(makaronai);
+
+let g = 6;
+
+console.log(g);
+//pirmiau spausdina, po to didina
+console.log(g++);
+//pirmiau padidina, po to isspausdina
+console.log(++g);
+
+console.log(g);

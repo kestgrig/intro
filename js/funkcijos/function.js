@@ -106,3 +106,4 @@ function words(w1, w2, w3) {
 }
 
 console.log(words('Latvia', 'Estonia', 'Lithuania'));
+
