@@ -14,7 +14,7 @@ const a = funkcijosPavadinimas();
 
 console.log(a);
 
-function empty () {
+function empty() {
     return undefined;
 
 }
@@ -102,7 +102,7 @@ function words(w1, w2, w3) {
     sentence += w3;
     sentence += '. ';
 
-    return sentence ;
+    return sentence;
 }
 
 console.log(words('Latvia', 'Estonia', 'Lithuania'));

@@ -19,22 +19,24 @@ if () {} ... else if () {} ... else {}
 const age = 50;
 const ageLimit = 18;
 
-// pirmas variantas
-if (age > ageLimit) {
-    console.log ('Sorry, bet per jaunas...');
-} 
+// Pirmas variantas
 
-// antras variantas
+if (age > ageLimit) {
+    console.log('Sorry, bet per jaunas...');
+}
+
+// Antras variantas
+
 if (age < ageLimit) {
-    console.log ('Sorry, bet per jaunas...');
+    console.log('Sorry, bet per jaunas...');
 } else {
-    console.log ('Ok, gali uzeiti.');
+    console.log('Ok, gali uzeiti.');
 }
 
 console.clear();
 
 if (4 == 2) {
-    console.log ('TAIP, daugiau');
+    console.log('TAIP, daugiau');
 } else {
     console.log('NE, maziau');
 }
@@ -46,30 +48,32 @@ console.clear();
 // green -> zalia
 // other -> Nezinau tokios spalvos....
 
-const color1 = 'white';
-function colorTranslation(color) {
-    
+
+function colourTranslation1(colour) {
+    let translation1 = '';
+
+    if (colour === 'red') {
+        translation1 = 'raudona';
+    } else if (colour === 'blue') {
+        translation1 = 'melyna';
+    } else if (colour === 'brown') {
+        translation1 = 'ruda';
+    } else if (colour === 'green') {
+        translation1 = 'zalia';
+    } else if (colour === 'white') {
+        translation1 = 'balta';
+    } else {
+        translation1 = '...';
+    }
+
+    return colour + '->' + translation1;
 }
-let translation = '';
 
-if (color === 'red') {
-    translation = ('Raudona');
-} else if (color1 === 'blue') {
-    translation = ('Melyna');
-} else if (color1 === 'green') {
-    translation = ('Zalia');
-} else {
-    translation = ('Nezinau tokios spalvos');
-}
-
-console.log('>>>', translation);
-
-
-console.log(colorTranslation('white'));
-console.log(colorTranslation('black'));
-console.log(colorTranslation('red'));
-console.log(colorTranslation('blue'));
-console.log(colorTranslation('grren'));
-console.log(colorTranslation('white'));
-console.log(colorTranslation('white'));
-console.log(colorTranslation('white'));
+console.log(colourTranslation1('white'));
+console.log(colourTranslation1('black'));
+console.log(colourTranslation1('red'));
+console.log(colourTranslation1('blue'));
+console.log(colourTranslation1('brown'));
+console.log(colourTranslation1('yellow'));
+console.log(colourTranslation1('pink'));
+console.log(colourTranslation1('green'));

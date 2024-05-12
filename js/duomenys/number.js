@@ -48,12 +48,12 @@ console.log(z);
 console.log(asd);
 console.log(asd);
 
-console.log (suma);
-console.log (skirtumas);
-console.log (dalmuo1);
-console.log (laipsnis1);
-console.log (2 ** 2, 2*2);
-console.log (2 ** 3, 2*2*2);
+console.log(suma);
+console.log(skirtumas);
+console.log(dalmuo1);
+console.log(laipsnis1);
+console.log(2 ** 2, 2 * 2);
+console.log(2 ** 3, 2 * 2 * 2);
 
 const liekana1 = pirmas % antras;
 console.log(pirmas, '%', antras, '=', liekana1);
@@ -158,6 +158,7 @@ makaronai++;
 makaronai++;
 console.log(makaronai);
 
+console.log('--------');
 let g = 6;
 
 console.log(g);
@@ -167,3 +168,14 @@ console.log(g++);
 console.log(++g);
 
 console.log(g);
+
+
+console.log('--------');
+
+let gb = 6;
+
+console.log(gb);
+//pirmau spausdina po to sumazina
+console.log(gb--);
+//pirmiau sumazina, po to spausdina
+console.log(--gb);
