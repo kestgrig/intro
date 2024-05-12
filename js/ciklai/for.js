@@ -26,13 +26,11 @@ console.log('FINISAS');
 
 console.log(0.1 + 0.2)
 
-console.clear();
 
 for (let i = 0; i < 5; i++) {
     console.log(i, 'Sveiki visi');
 
 }
-console.clear();
 
 const colors = ['white', 'black', 'red', 'green', 'blue', 'violet', 'silver'];
 

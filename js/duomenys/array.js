@@ -48,3 +48,37 @@ sum4 += marks[++index1];
 
 
 console.log('1.) ' + sum4);
+
+console.clear();
+
+
+function marksAverage(marks) {
+    if (marks.length === 0) {
+        return 'Vidurkis: nera pazymiu.';
+    }
+
+    let sum = 0;
+
+    return 'Vidurkis:' + (sum / marks.length);
+
+}
+
+const petroPazymiai = [];
+console.log(petroPazymiai);
+console.log(marksAverage(petroPazymiai));
+
+petroPazymiai.push(10);
+console.log(petroPazymiai);
+console.log(marksAverage(petroPazymiai));
+
+petroPazymiai.push(2);
+console.log(petroPazymiai);
+console.log(marksAverage(petroPazymiai));
+
+petroPazymiai.push(4);
+console.log(petroPazymiai);
+console.log(marksAverage(petroPazymiai));
+
+petroPazymiai.push(10);
+console.log(petroPazymiai);
+console.log(marksAverage(petroPazymiai));
