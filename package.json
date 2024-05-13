@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "method:number": "node --watch ./js/metodai/number.js",
+    "typeof": "node --watch ./js/metodai/typeof.js",
      "numbersize": "node --watch ./js/ND/numberSize.js",
     "for": "node --watch ./js/ciklai/for.js",
     "mini": "node --watch ./js/ND/mini.js",

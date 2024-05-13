@@ -352,36 +352,59 @@ console.log(numberCount(-18, 18, 3));
 console.log(numberCount(-18, 18, 5));
 console.log(numberCount(-18, 18, 7));
 
+console.clear();
+
+// Funkcija pavadinimu “tusciaFunkcija”:
+
+// nepriima jokių kintamųjų
+
+function tusciaFunkcija() {
+
+}
+
+// neatlieka jokios vidinės logikos
+
+function tusciaFunkcija() {
+
+}
+
+// grazina boolean tipo reikšme “false”
+
+function tusciaFunkcija() {
+    return false;
+}
+
+console.log(tusciaFunkcija());
+
+// Funkcija pavadinimu “daugyba”:
+
+// priima du skaičiaus tipo kintamuosius
+
+
+function daugyba(skaicius1, skaicius2) {
+
+}
+
+
+// atskirame kintamajame įsimena sandaugos reikšmę
+
+function daugyba(skaicius1, skaicius2) {
+    const answer = skaicius1 * skaicius2;
+
+}
+
+// gražina saudaugos rezultatą
+
+function daugyba(skaicius1, skaicius2) {
+    const answer = skaicius1 * skaicius2;
+    return answer;
+
+}
+
+console.log(daugyba(10, 20));
+console.log(daugyba(-10, 20));
+console.log(daugyba(10, -20));
+console.log(daugyba(0.45, 10));
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//console.log(numberCount(0, 11, 3));
-////console.log(numberCount(0, 11, 5));
-/////console.log(numberCount(0, 11, 7));
-
-///////onsole.log(numberCount(8, 31, 3));
-//////console.log(numberCount(8, 31, 5));
-//////////console.log(numberCount(8, 31, 7));
-
-//////////console.log(numberCount(-18, 18, 3));
-////console.log(numberCount(-18, 18, 5));
