@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "multiply": "node --watch ./js/ND/multiply.js",    
+    "codewars": "node --watch ./js/ND/codewars.js",
+    "string:number": "node --watch ./js/metodai/string.js",
     "method:number": "node --watch ./js/metodai/number.js",
-    "typeof": "node --watch ./js/metodai/typeof.js",
+    "typeof": "node --watch ./js/duomenys/typeof.js",
      "numbersize": "node --watch ./js/ND/numberSize.js",
     "for": "node --watch ./js/ciklai/for.js",
     "mini": "node --watch ./js/ND/mini.js",

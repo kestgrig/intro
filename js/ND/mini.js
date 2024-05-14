@@ -375,6 +375,7 @@ function tusciaFunkcija() {
 }
 
 console.log(tusciaFunkcija());
+console.clear();
 
 // Funkcija pavadinimu “daugyba”:
 
@@ -393,7 +394,7 @@ function daugyba(skaicius1, skaicius2) {
 
 }
 
-// gražina saudaugos rezultatą
+// gražina sandaugos rezultatą
 
 function daugyba(skaicius1, skaicius2) {
     const answer = skaicius1 * skaicius2;
@@ -404,7 +405,39 @@ function daugyba(skaicius1, skaicius2) {
 console.log(daugyba(10, 20));
 console.log(daugyba(-10, 20));
 console.log(daugyba(10, -20));
+console.log(daugyba(-10, -20));
 console.log(daugyba(0.45, 10));
+console.log(daugyba(-22.727, 3.1415));
+console.log(daugyba(-5.89787, -20.1415));
+console.log(daugyba(8, Infinity));
+console.log(daugyba(Infinity, Infinity));
+console.log(daugyba(Infinity, -Infinity));
+console.log(daugyba(5, NaN));
+console.log(daugyba(NaN, NaN));
+console.log(daugyba(NaN, -NaN));
+
+console.log(daugyba(2, 'Labas'));
+console.log(daugyba(3, 'Labas'.length));
+console.log(daugyba(3, []));
+console.log(daugyba(3, [].length));
+console.log(daugyba(3, [7]));
+console.log(daugyba(3, [7].length));
+console.log(daugyba(3, [7, 2]));
+console.log(daugyba(3, [7, 2].length));
+
+console.log(daugyba(5, true));
+console.log(daugyba(5, false));
+
+console.log(daugyba(5, undefined));
+console.log(daugyba(5, null));
+
+console.log(daugyba(5, daugyba));
+console.log(daugyba(5, daugyba()));
+
+console.log(daugyba(5, daugyba(2, 4)));
+
+console.log(daugyba(5));
+console.log(daugyba());
 
 
 

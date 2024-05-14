@@ -64,17 +64,3 @@ console.log(multiply(5, multiply(2, 4)));
 
 console.log(multiply(5));
 console.log(multiply());
-
-console.clear();
-
-const a = 'as dirbu';
-const aType = typeof a;
-
-console.log(a);
-console.log(aType);
-
-if (aType === 'string') {
-    console.log('As dirbu su STRING');
-} else {
-    console.log('As nedirbu su STRING');
-}
