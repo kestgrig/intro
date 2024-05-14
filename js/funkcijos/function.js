@@ -7,6 +7,14 @@ FUNCTION - funkcija, perpanaudojama logika
 Input +> Function() => Output
 */
 
+function doSomething(params) {
+    // 1) Input (parametru) validavimas
+    // 2) Vykdome logika
+    // 3) gauto rezultato validavimas
+    // 4) Graziname rezultata
+}
+
+
 function funkcijosPavadinimas() {
 }
 

@@ -11,6 +11,28 @@ BOOLEAN OPERATORIAI:
 - || (or)
 - ! (not)
 
+String:
+- jei tuscias - false
+- jei ne tuscias - true
+
+Array:
+- jei tuscias - true
+- jei ne tuscias - true
+
+Number:
+- jei nulis - false
+- jei NaN - false
+- jei ne nulis - true
+- jei Infinity - true
+- jei -Infinity - true
+
+Object:
+- jei tuscias - true
+- jei ne tuscias - true
+
+
+
+
 */
 
 const username = 'Jonas';
@@ -21,14 +43,14 @@ const hasFuel = false;
 console.log(isSunShining);
 console.log(hasFuel);
 
-console.log('KAIP NENAUDOTI:', (true + true) * (true + true +true));
+console.log('KAIP NENAUDOTI:', (true + true) * (true + true + true));
 console.log('KAIP NENAUDOTI:', true * false);
 
-console.log ('-----------');
-console.log (true && true);
-console.log (true && false);
-console.log (false && true);
-console.log (false && false);
+console.log('-----------');
+console.log(true && true);
+console.log(true && false);
+console.log(false && true);
+console.log(false && false);
 
 // MERGINA
 // kada eisiu i pasimatyma?
@@ -40,20 +62,20 @@ const isBeautiful = false;
 const isYoung = true;
 const isRich = false;
 
-const willIGoTo = isBeautiful ||  isYoung || isRich;
+const willIGoTo = isBeautiful || isYoung || isRich;
 console.log('>>>', willIGoTo);
 
 console.clear();
 
-console.log (true && true);
-console.log (true && false);
-console.log (false && true);
-console.log (false && false);
+console.log(true && true);
+console.log(true && false);
+console.log(false && true);
+console.log(false && false);
 
-console.log (true || true);
-console.log (true || false);
-console.log (false || true);
-console.log (false || false);
+console.log(true || true);
+console.log(true || false);
+console.log(false || true);
+console.log(false || false);
 
 console.log(true && true && true);
 
@@ -100,9 +122,18 @@ console.log(true && true && true || false);
 
 console.clear();
 
-console.log (!true);
-console.log (!false);
-console.log (!!false);
+console.log(!true);
+console.log(!false);
+console.log(!!false);
 // daugiau nei 2 sauktukai - nerasyti, please... 
-console.log (!!!false);
-console.log (!!!!false);
+console.log(!!!false);
+console.log(!!!!false);
+
+
+console.clear();
+
+if (false) {
+    console.log(true);
+} else {
+    console.log(false);
+}

@@ -1,3 +1,12 @@
+function numberSize(n) {
+    return 0;
+}
+
+console.log(numberSize(2));
+console.log(numberSize(10));
+
+
+
 
 console.log('-------------------------');
 
@@ -51,7 +60,7 @@ console.log(numberSize(3.1415), '-->', 5);
 
 console.log('-------------------------');
 
-console.clear();
+
 
 function numberSize(n) {
     if (typeof n !== 'number') {

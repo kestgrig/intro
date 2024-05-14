@@ -44,8 +44,6 @@ if (tikrinamasDalykas === null) {
     console.log('ne');
 }
 
-
-
 const a = '2142562';
 console.log(a);
 
