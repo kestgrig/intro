@@ -68,3 +68,10 @@ console.log('Lech Wałęsa' + ' ' + '>>>' + ' ' + polish('Lech Wałęsa'));
 console.log('Maria Skłodowska-Curie' + ' ' + '>>>' + ' ' + polish('Maria Skłodowska-Curie'));
 
 console.log('----------------------');
+
+function squareSum(numbers) {
+    const answer1 = (numbers[0] ** 2) + (numbers[1] ** 2) + (numbers[2] ** 2);
+    return answer1;
+}
+
+console.log(squareSum([1, 2, 2]));

@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clock": "node --watch ./js/ND/clock.js",    
     "multiply": "node --watch ./js/ND/multiply.js",    
     "codewars": "node --watch ./js/ND/codewars.js",
     "string:number": "node --watch ./js/metodai/string.js",
