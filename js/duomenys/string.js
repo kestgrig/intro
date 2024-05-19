@@ -1,7 +1,7 @@
 /*
 STRING - tekstas, tekstiniu simboliu grandinele
 
-iniciavimas: ' (vienguba), " (dviguba)
+iniciavimas: ' (vienguba), " (dviguba), `(backtick)
 
 
 */
@@ -63,6 +63,9 @@ x = x + y1;
 console.log(money + x);
 
 console.clear();
+
+
+
 
 
 

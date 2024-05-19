@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "arrow": "node --watch ./js/duomenys/arrow.js",
+    "matrix": "node --watch ./js/ND/matrix.js",    
     "clock": "node --watch ./js/ND/clock.js",    
     "multiply": "node --watch ./js/ND/multiply.js",    
     "codewars": "node --watch ./js/ND/codewars.js",
@@ -16,7 +18,7 @@
     "function": "node --watch ./js/funkcijos/function.js",
     "array": "node --watch ./js/duomenys/array.js",
     "if": "node --watch ./js/palyginimas/if.js",
-    "boolean1": "node --watch ./js/duomenys/boolean1.js",
+    "index": "node --watch ./index.js",
     "boolean": "node --watch ./js/duomenys/boolean.js",
     "string1": "node --watch ./js/duomenys/string1.js",
     "string": "node --watch ./js/duomenys/string.js",

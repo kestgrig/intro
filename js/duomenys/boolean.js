@@ -137,3 +137,11 @@ if (false) {
 } else {
     console.log(false);
 }
+console.clear();
+
+if (4 === '4') {
+    console.log('Taip');
+} else {
+    console.log('Ne');
+}
+
