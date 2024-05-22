@@ -415,6 +415,137 @@ function stringToNumber(str) {
     result = Number(str);
     return result;
 }
-
 console.log(stringToNumber("1234"))
 
+console.log('-------------------------');
+console.log('<<< Chuck Norris VII - True or False? (Beginner) >>>')
+// Your task is to be more like Chuck(ha! good luck!).
+// You must return false without ever actually using 
+// the word false...
+
+function ifChuckSaysSo() {
+    return !true;
+}
+
+console.log(ifChuckSaysSo())
+
+console.log('-------------------------');
+console.log('<<< Rock Paper Scissors >>>!');
+// Let's play! You have to return which player won! In case
+// of a draw return Draw!.
+
+function rps(a, b) {
+    if ((a === 'scissors') && (b === 'paper')) {
+        return 'Player 1 won!';
+    } else if ((a === 'rock') && (b === 'scissors')) {
+        return 'Player 1 won!';
+    } else if ((a === 'paper') && (b === 'rock')) {
+        return 'Player 1 won!';
+    } else if ((a === 'scissors') && (b === 'rock')) {
+        return 'Player 2 won!';
+    } else if ((a === 'paper') && (b === 'scissors')) {
+        return 'Player 2 won!';
+    } else if ((a === 'rock') && (b === 'paper')) {
+        return 'Player 2 won!';
+    } else if (a === b) {
+        return 'Draw!';
+    }
+}
+
+console.log(rps('rock', 'rock'));
+console.log(rps('rock', 'paper'));
+console.log(rps('paper', 'rock'));
+
+console.log('-------------------------');
+console.log('<<< Rock Paper Scissors Lizard Spock >>>!');
+// Given two values from the above game, return the Player 
+// result as "Player 1 Won!", "Player 2 Won!", or "Draw!".
+// Inputs: Values will be given as one of 
+// "rock", "paper", "scissors", "lizard", "spock".
+
+function rpsls(pl1, pl2) {
+    if ((pl1 === 'rock') && (pl2 === 'lizard')) {
+        return 'Player 1 Won!';
+    } else if ((pl1 === 'scissors') && (pl2 === 'lizard')) {
+        return 'Player 1 Won!';
+    } else if ((pl1 === 'paper') && (pl2 === 'rock')) {
+        return 'Player 1 Won!';
+    } else if ((pl1 === 'lizard') && (pl2 === 'paper')) {
+        return 'Player 1 Won!';
+    } else if ((pl1 === 'spock') && (pl2 === 'rock')) {
+        return 'Player 1 Won!';
+    } else if ((pl1 === 'rock') && (pl2 === 'scissors')) {
+        return 'Player 1 Won!';
+    } else if ((pl1 === 'paper') && (pl2 === 'spock')) {
+        return 'Player 1 Won!';
+    } else if ((pl1 === 'scissors') && (pl2 === 'paper')) {
+        return 'Player 1 Won!';
+    } else if ((pl1 === 'lizard') && (pl2 === 'spock')) {
+        return 'Player 1 Won!';
+    } else if ((pl1 === 'spock') && (pl2 === 'scissors')) {
+        return 'Player 1 Won!';
+    } else if ((pl1 === 'scissors') && (pl2 === 'spock')) {
+        return 'Player 2 Won!';
+    } else if ((pl1 === 'paper') && (pl2 === 'lizard')) {
+        return 'Player 2 Won!';
+    } else if ((pl1 === 'rock') && (pl2 === 'spock')) {
+        return 'Player 2 Won!';
+    } else if ((pl1 === 'lizard') && (pl2 === 'scissors')) {
+        return 'Player 2 Won!';
+    } else if ((pl1 === 'spock') && (pl2 === 'lizard')) {
+        return 'Player 2 Won!';
+    } else if ((pl1 === 'scissors') && (pl2 === 'rock')) {
+        return 'Player 2 Won!';
+    } else if ((pl1 === 'spock') && (pl2 === 'paper')) {
+        return 'Player 2 Won!';
+    } else if ((pl1 === 'rock') && (pl2 === 'paper')) {
+        return 'Player 2 Won!';
+    } else if ((pl1 === 'paper') && (pl2 === 'scissors')) {
+        return 'Player 2 Won!';
+    } else if ((pl1 === 'lizard') && (pl2 === 'rock')) {
+        return 'Player 2 Won!';
+    } else if (pl1 === pl2) {
+        return 'Draw!';
+    }
+}
+
+console.log(rpsls('scissors', 'lizard'));
+console.log(rpsls('lizard', 'paper'));
+console.log(rpsls('scissors', 'spock'));
+console.log(rpsls('rock', 'spock'));
+console.log(rpsls('rock', 'rock'));
+
+// const MATCH = {
+//     scissors: ['paper', 'lizard'],
+//     paper: ['rock', 'spock'],
+//     rock: ['lizard', 'scissors'],
+//     lizard: ['spock', 'paper'],
+//     spock: ['scissors', 'rock'],
+// };
+
+// function rpsls(pl1, pl2) {
+//     return MATCH[pl1].indexOf(pl2) >= 0 ? 'Player 1 Won!' :
+//         MATCH[pl2].indexOf(pl1) >= 0 ? 'Player 2 Won!' : 'Draw!';
+
+console.log('-------------------------');
+console.log('<<< Remove exclamation marks >>>');
+// Write function RemoveExclamationMarks which removes all 
+// exclamation marks from a given string.
+
+function removeExclamationMarks(s) {
+    return s.replaceAll('!', '');
+}
+console.log(removeExclamationMarks('Hello world!'));
+
+// 1) function removeExclamationMarks(s) {
+//     return s.replace(/!/g, '');
+// }
+
+// 2) function removeExclamationMarks(s) {
+//     return s.split('!').join('');
+// }
+
+// 3) function removeExclamationMarks(s) {
+//     return s.replaceAll('!', '');
+// }
+console.log('-------------------------');

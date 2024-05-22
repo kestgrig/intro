@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "spread": "node --watch ./js/metodai/spread.js",   
     "ternary": "node --watch ./js/palyginimas/ternary.js",
     "math": "node --watch ./js/metodai/math.js",
     "object": "node --watch ./js/duomenys/object.js",
