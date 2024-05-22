@@ -56,10 +56,10 @@ console.log(numb(23, 617));
 
 console.log("-------------------------------");
 
-const max = 617;
-const min = 23;
 
 for (let i = 0; i < 1; i++) {
+    const max = 617;
+    const min = 23;
     console.log(Math.floor(Math.random() * (max - min)) + min)
 }
 
