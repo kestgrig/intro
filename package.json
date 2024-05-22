@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "ternary": "node --watch ./js/palyginimas/ternary.js",
+    "math": "node --watch ./js/metodai/math.js",
+    "object": "node --watch ./js/duomenys/object.js",
+    "random": "node --watch ./js/metodai/random.js",
     "arrow": "node --watch ./js/duomenys/arrow.js",
     "matrix": "node --watch ./js/ND/matrix.js",    
     "clock": "node --watch ./js/ND/clock.js",    

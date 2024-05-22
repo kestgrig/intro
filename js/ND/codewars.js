@@ -160,3 +160,259 @@ const drawStairs1 = n => [...Array(n)].map((_, i) => " ".repeat(i) + "I").join("
 console.log(drawStairs1(3));
 
 console.log('-------------------------');
+
+// ['hello', 'world', 'this', 'is', 'great']  => 'hello world this is great'
+// Write a function that takes an array of words and smashes
+//  them together into a sentence and returns the sentence.
+//  You can ignore any need to sanitize words or add punctuation,
+//   but you should add spaces between each word.Be careful,
+//    there shouldn't be a space at the beginning or the 
+//    end of the sentence!
+
+function smash([]) {
+    return words1.join(' ');
+};
+
+console.log('-------------------------');
+
+// If you can't sleep, just count sheep!!
+// Given a non - negative integer, 3 for example, return a 
+// string with a murmur: 
+// "1 sheep...2 sheep...3 sheep...".Input will always be valid,
+//  i.e.no negative integers.
+
+
+function countSheep(num) {
+    let sheepSum = '';
+    for (let i = 1; i <= num; i++) {
+        sheepSum += i.toString() + ' sheep...';
+    }
+    return sheepSum;
+}
+
+console.log(countSheep(4));
+
+console.log('-------------------------');
+
+// Grasshopper - Messi goals function
+// Messi is a soccer player with goals in three leagues:
+// LaLiga
+// Copa del Rey
+// Champions
+// Complete the function to return his total number of
+//  goals in all three leagues.
+
+function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+    messigoalsSum = laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+    return messigoalsSum;
+}
+
+console.log(goals(20, 30, 40))
+
+console.log('-------------------------');
+
+// Fix the Bugs(Syntax) - My First Kata
+// Overview
+// Hello, this is my first Kata so forgive me if it is of poor quality.
+// In this Kata you should fix / create a program that returns the following values:
+// false / False if either a or b(or both) are not numbers
+// a % b plus b % a if both arguments are numbers
+// You may assume the following:
+// If a and b are both numbers, neither of a or b will be 0.
+
+function myFirstKata(a, b) {
+    if (typeof a != "number" || typeof (b) != "number") {
+        return false;
+    } else {
+        return a % b + b % a;
+    }
+}
+
+console.log(myFirstKata(3, 3))
+
+console.log('<<< Powers of 2 >>>');
+
+// Powers of 2
+// Complete the function that takes a non - negative integer n
+//  as input, and returns a list of all the
+// powers of 2 with the exponent ranging from 0 to n(inclusive)
+
+function powersOfTwo(n) {
+    const numberCount = [];
+    for (let i = 0; i <= n; i++) {
+        numberCount.push(2 ** i);
+    }
+    return numberCount
+}
+
+console.log(powersOfTwo(5))
+console.log()
+
+console.log('<<< Training JS #1: create your first JS function and print >>>')
+// "Hello World!"
+
+/* Please refer to two example above and write 
+yourfirst JS function.
+ --mission 1: use keyword function 
+ to define your function, function name should be 
+ helloWorld(don't forget the () and {})
+ --mission 2: use keyword var (or let or const) to 
+ define a variable str, value of str should be a
+ string: "Hello World!"(don't forget the =).
+ --mission 3: type the console.log() in the next 
+ line(don't forget to put the str in the parentheses).
+ When you have finished the work, click "Run Tests" to 
+ see if your code is working properly.
+ In the end, click "Submit" to submit your code pass this kata.
+*/
+
+// function helloWorld() {
+//     const str = "Hello World!";
+//     console.log(str);
+// }
+function helloWorld() {
+    const str = "Hello World!";
+    return str
+}
+console.log(helloWorld())
+
+console.log('-------------------------');
+
+// function yourFutureCareer() {
+//     const career = Math.random();
+//     if (career <= 0.32) {
+//         return 'FrontEnd Developer';
+//     } else if (career <= 0.65) {
+//         return 'BackEnd Developer';
+//     } else {
+//         return 'Full-Stack Developer';
+//     }
+
+// }
+function yourFutureCareer() {
+    if (Math.random() < 0.32) {
+        return 'FrontEnd Developer';
+    } else if (Math.random() < 0.65) {
+        return 'BackEnd Developer';
+    } else {
+        return 'Full-Stack Developer';
+    }
+
+}
+console.log(yourFutureCareer())
+
+console.log('-------------------------');
+
+console.log('<<< Grasshopper - Summation >>>')
+
+// Summation
+// Write a program that finds the summation of every 
+// number from 1 to num.The number will always be a 
+// positive integer greater than 0. Your function only
+//  needs to return the result, what is shown between 
+//  parentheses in the example below is how you reach 
+//  that result and it's not part of it, see the sample tests.
+function summation(num) {
+    let sum = 0;
+    for (let i = 0; i <= num; i++) {
+        sum += i
+    }
+    return sum
+}
+
+console.log(summation(8))
+
+console.log('-------------------------');
+console.log('<<< Opposite number >>>')
+// Very simple, given a number (integer / decimal 
+// both depending on the language), find its opposite
+// (additive inverse).
+
+function opposite(number) {
+    result = number * (-1);
+    return result;
+}
+console.log(opposite(-5));
+console.log(opposite(50))
+
+console.log('-------------------------');
+console.log('<<< Triple Trouble >>>')
+// Create a function that will return a string that combines
+// all of the letters of the three inputed strings in groups.
+// Taking the first letter of all of the inputs and grouping
+//  them next to each other.Do this for every letter, see
+//  example below!
+// E.g.Input: "aa", "bb", "cc" => Output: "abcabc"
+
+function tripleTrouble(one, two, three) {
+    let sum = ''
+    for (let i = 0; i < one.length; i++) {
+        sum += one[i] + two[i] + three[i];
+    }
+    return sum
+}
+console.log(tripleTrouble('aaa', 'bbb', 'ccc'))
+
+console.log('-------------------------');
+console.log('<<< You Cant Code Under Pressure >>>')
+// Code as fast as you can! You need to double 
+// the integer and return it.
+
+function doubleInteger(i) {
+    result = i * 2;
+    return result;
+}
+
+console.log('-------------------------');
+console.log('<<< Is he gonna survive? >>>')
+// A hero is on his way to the castle to complete his mission. 
+// However, he's been told that the castle is surrounded with a 
+// couple of powerful dragons! each dragon takes 2 bullets to be 
+// defeated, our hero has no idea how many bullets he should carry.
+// . Assuming he's gonna grab a specific given number of bullets 
+// and move forward to fight another specific given number of dragons
+// , will he survive?
+// Return true if yes, false otherwise:)
+
+function hero(bullets, dragons) {
+    if (bullets >= dragons * 2) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(hero(100, 200));
+console.log(hero(100, 20));
+
+console.log('-------------------------');
+console.log('<<< Will you make it ? >>>')
+// You were camping with your friends far away from home, 
+// but when it's time to go back, you realize that your fuel 
+// is running out and the nearest pump is 50 miles away! You 
+// know that on average, your car runs on about 25 miles per gallon. 
+// There are 2 gallons left.
+// Considering these factors, write a function that tells you if 
+// it is possible to get to the pump or not.
+// Function should return true if it is possible and false if not.
+
+function zeroFuel(milesleft, mph, gallonsleft) {
+    if ((mph * gallonsleft) >= milesleft) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(zeroFuel(100, 20, 2));
+console.log(zeroFuel(10, 20, 2));
+
+console.log('-------------------------');
+console.log('<<< Convert a String to a Number! >>>')
+// We need a function that can transform a string into a
+// number.What ways of achieving this do you know ?
+
+function stringToNumber(str) {
+    result = Number(str);
+    return result;
+}
+
+console.log(stringToNumber("1234"))
